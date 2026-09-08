@@ -1,0 +1,11 @@
+{
+  "domain": "maison_elise_bridge",
+  "name": "Maison Élise Bridge",
+  "version": "0.1.0-dev.8",
+  "documentation": "https://github.com/brunofoxmulder/maison-elise-bridge",
+  "issue_tracker": "https://github.com/brunofoxmulder/maison-elise-bridge/issues",
+  "codeowners": ["@brunofoxmulder"],
+  "config_flow": true,
+  "dependencies": ["cloud", "hassio", "persistent_notification", "webhook"],
+  "iot_class": "cloud_push"
+}
