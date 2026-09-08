@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Maison Élise Bridge",
+        "description": "Copie ici le jeton API affiché dans Élise Investigator, section Connexion IA. Le bridge détecte automatiquement l'app Investigator et reste strictement en lecture seule.",
+        "data": {
+          "investigator_token": "Jeton API Élise Investigator"
+        }
+      },
+      "reconfigure": {
+        "title": "Cloudhook Maison Élise",
+        "description": "Cette URL est le Cloudhook Nabu Casa actuellement utilisé par Maison Élise Bridge. Copie-la telle quelle dans CLOUDHOOK_URL du code de la skill Alexa. Toute modification saisie dans ce champ est ignorée par le Bridge.",
+        "data": {
+          "cloudhook_url": "Cloudhook Nabu Casa actuel"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossible de joindre Élise Investigator sur le réseau interne Home Assistant.",
+      "invalid_auth": "Le jeton API Élise Investigator est invalide.",
+      "investigator_not_found": "L'app Élise Investigator 0.2 Test n'a pas été trouvée.",
+      "supervisor_not_ready": "Le Supervisor Home Assistant n'est pas encore prêt. Réessaie dans un instant."
+    },
+    "abort": {
+      "already_configured": "Maison Élise Bridge est déjà configuré.",
+      "cloudhook_unchanged": "Le Cloudhook n'a pas été modifié."
+    }
+  }
+}
